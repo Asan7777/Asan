@@ -1,0 +1,75 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1563538058596" stop="1563538058618">
+  <name>pytest_allure.test_get</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1563538058596" status="failed" stop="1563538058616">
+      <description>
+    用例描述：这是用例描述，出现在什么位置
+    </description>
+      <name>test_case_01</name>
+      <failure>
+        <message>AssertionError: assert (1 + 1) == 3</message>
+        <stack-trace>@allure.feature('test_module_01')
+    @allure.severity('blocker')
+    @allure.step('测试书架')
+    @allure.issue('干什么用的')
+    @allure.testcase('不知道')
+    #test_case_01 用例tittle
+    def test_case_01():
+        '''
+        用例描述：这是用例描述，出现在什么位置
+        '''
+&gt;       assert 1 + 1 == 3
+E       assert (1 + 1) == 3
+
+test_get.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_module_01"/>
+        <label name="severity" value="blocker"/>
+        <label name="testId" value="不知道"/>
+        <label name="issue" value="干什么用的"/>
+        <label name="thread" value="28116-MainThread"/>
+        <label name="host" value="DS-WS-170432"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1563538058598" status="failed" stop="1563538058600">
+          <name>测试书架</name>
+          <title>测试书架</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1563538058617" status="passed" stop="1563538058617">
+      <name>test_case_02</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_module_02"/>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="28116-MainThread"/>
+        <label name="host" value="DS-WS-170432"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1563538058618" status="passed" stop="1563538058618">
+      <name>test_case_03</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="test_module_03"/>
+        <label name="story" value="test_story_01"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="28116-MainThread"/>
+        <label name="host" value="DS-WS-170432"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

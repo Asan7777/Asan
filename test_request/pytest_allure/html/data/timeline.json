@@ -1,0 +1,64 @@
+{
+  "hosts" : [ {
+    "title" : "DS-WS-170432",
+    "threads" : [ {
+      "title" : "28116-MainThread",
+      "testCases" : [ {
+        "uid" : "c283719168b95441",
+        "name" : "test_case_01",
+        "title" : "Test case 01",
+        "time" : {
+          "start" : 1563538058619,
+          "stop" : 1563538058621,
+          "duration" : 2
+        },
+        "severity" : "CRITICAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "84e3b4f074dc7bf4",
+        "name" : "test_case_02",
+        "title" : "Test case 02",
+        "time" : {
+          "start" : 1563538058621,
+          "stop" : 1563538058622,
+          "duration" : 1
+        },
+        "severity" : "BLOCKER",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ed2adfd7e70582be",
+        "name" : "test_case_01",
+        "title" : "Test case 01",
+        "time" : {
+          "start" : 1563538058596,
+          "stop" : 1563538058616,
+          "duration" : 20
+        },
+        "severity" : "BLOCKER",
+        "status" : "FAILED"
+      }, {
+        "uid" : "7c9d2d5169ac9af9",
+        "name" : "test_case_02",
+        "title" : "Test case 02",
+        "time" : {
+          "start" : 1563538058617,
+          "stop" : 1563538058617,
+          "duration" : 0
+        },
+        "severity" : "CRITICAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fa03e627c74b618e",
+        "name" : "test_case_03",
+        "title" : "Test case 03",
+        "time" : {
+          "start" : 1563538058618,
+          "stop" : 1563538058618,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

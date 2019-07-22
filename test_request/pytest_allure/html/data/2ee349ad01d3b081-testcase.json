@@ -1,0 +1,59 @@
+{
+  "uid" : "2ee349ad01d3b081",
+  "name" : "test_case_01",
+  "title" : "Test case 01",
+  "time" : {
+    "start" : 1563454628584,
+    "stop" : 1563454628586,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: assert (1 + 1) == 3",
+    "stackTrace" : "@allure.feature('test_module_01')\n    #test_case_01 用例tittle\n    def test_case_01():\n        '''\n        用例描述：这是用例描述，出现在什么位置\n        '''\n>       assert 1 + 1 == 3\nE       assert (1 + 1) == 3\n\ntest_post.py:17: AssertionError"
+  },
+  "description" : {
+    "value" : "\n    用例描述：这是用例描述，出现在什么位置\n    ",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "4ce850aecbaa4627",
+    "name" : "pytest_allure.test_post",
+    "title" : "Test post"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "11716-MainThread"
+  }, {
+    "name" : "host",
+    "value" : "DS-WS-170432"
+  }, {
+    "name" : "suite-name",
+    "value" : "pytest_allure.test_post"
+  }, {
+    "name" : "feature",
+    "value" : "test_module_01"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}
