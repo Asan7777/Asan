@@ -1,0 +1,6 @@
+[2019-07-01 17:36:28] [line:9] [INFO] [开始安装app]
+[2019-07-01 17:36:30] [line:117] [INFO] [Could not connect to port 4723 on host localhost]
+[2019-07-01 17:36:30] [line:136] [INFO] [Could not get IP address for host: localhost]
+[2019-07-01 17:36:32] [line:662] [WARNING] [Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000435AAC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session]
+[2019-07-01 17:36:34] [line:662] [WARNING] [Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000435ABA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session]
+[2019-07-01 17:36:36] [line:662] [WARNING] [Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000000000435AC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /wd/hub/session]
