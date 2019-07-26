@@ -1,0 +1,90 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 5,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 2,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1563538058596,
+        "stop" : 1563538058622,
+        "duration" : 26
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 2,
+        "uid" : "f95ab4ee80fe1548",
+        "message" : "AssertionError: assert (1 + 1) == 3",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "uid" : "eab2a3087dca0bf6",
+        "title" : "Test get",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "c1ceca02ed436349",
+        "title" : "Test post",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "title" : "test_module_01",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 2,
+          "broken" : 0
+        }
+      }, {
+        "title" : "test_module_02",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "title" : "test_module_03",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

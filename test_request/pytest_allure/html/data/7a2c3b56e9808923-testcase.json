@@ -1,0 +1,53 @@
+{
+  "uid" : "7a2c3b56e9808923",
+  "name" : "test_case_02",
+  "title" : "Test case 02",
+  "time" : {
+    "start" : 1563537908084,
+    "stop" : 1563537908084,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "CRITICAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "636d35d6e1ccebe5",
+    "name" : "pytest_allure.test_get",
+    "title" : "Test get"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DS-WS-170432"
+  }, {
+    "name" : "feature",
+    "value" : "test_module_02"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "12720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "pytest_allure.test_get"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

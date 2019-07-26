@@ -1,0 +1,53 @@
+{
+  "uid" : "a4a97d7ed72d8d07",
+  "name" : "test_case_02",
+  "title" : "Test case 02",
+  "time" : {
+    "start" : 1563537759981,
+    "stop" : 1563537759982,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "BLOCKER",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6d91d245253ccb81",
+    "name" : "pytest_allure.test_post",
+    "title" : "Test post"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DS-WS-170432"
+  }, {
+    "name" : "feature",
+    "value" : "test_module_02"
+  }, {
+    "name" : "suite-name",
+    "value" : "pytest_allure.test_post"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "25340-MainThread"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  } ],
+  "parameters" : [ ]
+}

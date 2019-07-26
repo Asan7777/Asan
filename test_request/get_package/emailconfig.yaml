@@ -1,0 +1,9 @@
+
+# (测试使用,163邮箱发送,qq邮箱接收)
+From_email: '13426038659@163.com'
+To_email: '2929341737@qq.com'
+Subject: '自动化测试结果报告输出'
+Mail_host: 'smtp.163.com'
+Port: '465'
+User_name: '13426038659'
+Password: 'Yun666888'
